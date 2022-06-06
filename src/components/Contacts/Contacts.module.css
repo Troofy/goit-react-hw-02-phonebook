@@ -1,0 +1,52 @@
+.wrapper,
+.contacts__list {
+  padding: 0 35px;
+  display: block;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 0.5;
+  text-transform: uppercase;
+}
+.wrapper {
+  padding-top: 35px;
+}
+.contacts__list {
+  padding-bottom: 35px;
+}
+
+.contacts__item {
+  display: flex;
+  justify-content: space-between;
+}
+.contacts__item:hover {
+  background-color: #f2f3eb;
+}
+
+.text {
+  padding-bottom: 35x;
+}
+
+.delete__btn {
+  background: none;
+  border: solid 1px #e20000;
+  border-radius: 5px;
+  color: #774a33;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-weight: bold;
+  outline: none;
+  padding: 0 15px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.delete__btn:hover,
+.delete__btn:focus {
+  background: #881111;
+  color: #f2f3eb;
+}
